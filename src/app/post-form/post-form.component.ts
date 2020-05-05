@@ -52,5 +52,7 @@ export class PostFormComponent implements OnInit {
     this.posts.push(post);
 
     this.submitted.emit(this.submit);
+    this.title='';
+    this.thought='';
   };
 }
